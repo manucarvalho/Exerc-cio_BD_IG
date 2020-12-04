@@ -1,0 +1,11 @@
+Create database bd_pessoa;
+
+Use bd_pessoa;
+
+Create table pessoa (
+	id int primary key auto_increment,
+	nome varchar(50),
+	email varchar(100),
+	rendaFamiliar float,
+	qtdePessoas int
+);
